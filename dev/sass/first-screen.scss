@@ -52,6 +52,12 @@
             color: #fff;
             font-family: 'Rubik';
             font-size: 14px;
+
+            &:hover {
+                background-color: #fff;
+                border: 1px solid #FFB800;
+                color: #FFB800;
+            }
         }
 
         #learn-more {
@@ -61,26 +67,33 @@
             color: #FFB800;
             font-family: 'Rubik';
             font-size: 14px;
+
+            &:hover {
+            background-color: blue;
+            color: #fff;
+            }
         }
 
         .col-right {
             margin-top: 82px;
             margin-left: 145px;
-            position: relative;
             max-width: 496px;
             width: 100%;
 
             .girl-baner {
                 border-radius: 14px;
+                position: relative;
 
                 // help
                 &::after {
                     content: "";
                     position: absolute;
-                    background-image: url(assets/img/block-1-back.png);
-                    max-width: 927px;
-                    width: 100%;
+                    background-image: url(assets/img/bg-1.png);
+                    // max-width: 927px;
+                    width: 927px;
                     height: 891px;
+                    top: 0;
+                    left: 0;
                     // help
                 }
             }
@@ -122,6 +135,58 @@
 
         .item-2 {
             margin-left: 18px;
+        }
+
+        .item-1 {
+            position: relative;
+            &::after {
+                content: "";
+                position: absolute;
+                background-image: url(assets/img/full-serv.png);
+                width: 40px;
+                height: 40px;
+                top: 5%;
+                left: -28%;
+            }
+        }
+
+        .item-2 {
+            position: relative;
+            &::after {
+                content: "";
+                position: absolute;
+                background-image: url(assets/img/multi.png);
+                width: 40px;
+                height: 40px;
+                top: 5%;
+                left: -28%;
+            }
+        }
+
+        .item-3 {
+            position: relative;
+            &::after {
+                content: "";
+                position: absolute;
+                background-image: url(assets/img/proff.png);
+                width: 40px;
+                height: 40px;
+                top: 5%;
+                left: -28%;
+            }
+        }
+
+        .item-4 {
+            position: relative;
+            &::after {
+                content: "";
+                position: absolute;
+                background-image: url(assets/img/secure.png);
+                width: 40px;
+                height: 40px;
+                top: 5%;
+                left: -28%;
+            }
         }
     }
 }
