@@ -1,0 +1,85 @@
+.masks {
+    .respirators {
+        display: flex;
+        flex-direction: row;
+
+        .respirators-col-right {
+            width: 523px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .respirators-col-left {
+            width: 570px;
+            height: 616px;
+            display: flex;
+            flex-direction: row;
+            margin-right: 47px;
+        }
+
+        .respirators-title {
+            color: #0C122D;
+            font-family: 'Rubik';
+            font-weight: 700;
+            font-size: 48px;
+            margin-bottom: 36px;
+            margin-top: 20px;
+            line-height: 30px;
+        }
+
+        .respirators-description-1,
+        .respirators-description-2 {
+            font-family: 'OpenSans';
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 30px;
+        }
+
+        .respirators-description-1 {
+            margin-bottom: 30px;
+        }
+
+    }
+
+    .health {
+        margin-top: 92px;
+        display: flex;
+        flex-direction: row;
+
+        .health-col-right {
+            width: 570px;
+            height: 616px;
+            display: flex;
+            flex-direction: row;
+            margin-top: -10px;
+            margin-left: 52px;
+        }
+
+        .health-col-left {
+            width: 523px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .health-title {
+            color: #0C122D;
+            font-family: 'Rubik';
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 50px;
+            margin-bottom: 28px;
+        }
+
+        .health-description-1,
+        .health-description-2 {
+            font-family: 'OpenSans';
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 30px;
+        }
+
+        .health-description-1 {
+            margin-bottom: 30px;
+        }
+    }
+}
