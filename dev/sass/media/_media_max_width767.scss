@@ -1,3 +1,62 @@
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767px) {}
 
+@media screen and (max-width: 650px) {
+    .hong-kong {
+
+        .kong-col-left {
+            img {
+                min-width: 285px;
+                margin: auto;
+            }
+        }
+
+        .kong-col-right {
+            align-items: center;
+        }
+
+        .row {
+            justify-content: center;
+        }
+
+        .contact-us {
+            width: 285px;
+            margin: auto;
+
+            .contact-title {
+                font-size: 18px;
+                margin-left: 15px;
+            }
+
+            .contact-description {
+                margin-left: 15px;
+            }
+
+            .contact-number {
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+
+                .learn-more-btn {
+                    margin-left: 0;
+                    width: 150px;
+                    align-items: center;
+
+                    &::after {
+                        display: none;
+                    }
+                }
+
+                .number {
+                    margin: 0;
+                    justify-content: center;
+                    align-items: center;
+                    margin-top: 50px;
+
+                    &::after {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
 }
