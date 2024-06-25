@@ -81,4 +81,24 @@
         }
 
     }
+
+    .hong-kong {
+        .lab {
+            flex-direction: column;
+
+            .col-lab {
+                justify-content: center;
+                align-items: center;
+                margin-right: 0;
+
+                &::after {
+                    display: none;
+                }
+            }
+
+            .col-img {
+                margin-top: 25px;
+            }
+        }
+    }
 }

@@ -160,4 +160,45 @@
             }
         }
     }
+
+    .lab {
+        display: flex;
+        flex-direction: row;
+        margin-top: 105px;
+
+        .col-lab,
+        .col-img {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .col-lab {
+            position: relative;
+            margin-right: 250px;
+            color: #575C74;
+            font-family: 'OpenSans';
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 24px;
+
+            &::after {
+                content: "";
+                position: absolute;
+                width: 127px;
+                height: 1px;
+                background-color: #FFB800;
+                left: 125%;
+            }
+        }
+
+        .col-img {
+            margin-top: -28px;
+        }
+
+        .nelson,
+        .cnas {
+            margin-left: 100px;
+        }
+
+    }
 }
