@@ -18,6 +18,7 @@
             max-width: 653px;
             width: 100%;
             margin-left: 85px;
+            margin-top: 3px;
         }
     
         .reason-title {
@@ -26,6 +27,7 @@
             font-weight: 700;
             font-size: 48px;
             line-height: 50px;
+            margin-bottom: 23px;
         }
     
         .reason-description {
@@ -34,12 +36,15 @@
             font-weight: 400;
             font-size: 16px;
             line-height: 30px;
+            margin-left: 4px;
         }
     
         .item {
             display: flex;
             flex-direction: column;
             width: 238px;
+            margin-top: 30px;
+            margin-left: 80px;
     
             &-title {
                 color: #0C122D;
@@ -55,6 +60,51 @@
                 font-size: 15px;
                 line-height: 22px; 
             }
+
+            &-1,
+            &-2,
+            &-3,
+            &-4 {
+                position: relative;
+                &::after {
+                    content: "";
+                    position: absolute;
+                    background-image: url(assets/img/award.png);
+                    width: 61px;
+                    height: 57px;
+                    top: 3%;
+                    left: -26%;
+                    background-repeat: no-repeat;
+                    border-radius: 100%;
+                }
+            }
+
+            &-2 {
+                &::after {
+                    background: url(assets/img/graph.png) center/ auto no-repeat #1B5FC1;
+                }
+            }
+            
+            &-3 {
+                &::after {
+                    background: url(assets/img/shield.png) center/ auto no-repeat #1B5FC1;
+                }
+            }
+
+            &-4 {
+                &::after {
+                    background: url(assets/img/friends.png) center/ auto no-repeat #1B5FC1;
+                }
+            }
+        }
+
+
+        .col-right {
+            margin-left: 99px;
+        }
+
+        .row:last-child {
+            margin-top: -10px;
         }
     }
 }
