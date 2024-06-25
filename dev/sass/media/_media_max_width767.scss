@@ -1,6 +1,73 @@
 @media screen and (max-width: 767px) {}
 
 @media screen and (max-width: 650px) {
+
+    .first-screen {
+        margin-bottom: 100px;
+
+        .baner {
+
+            &-title,
+            &-subtitle {
+                font-size: 50px;
+            }
+
+
+        }
+    }
+
+    .masks {
+        .respirators {
+
+            .respirators-col-left {
+                justify-content: center;
+                height: 400px;
+            }
+
+            .img-respirators {
+                width: 337px;
+                height: 390px;
+            }
+
+            .respirators-title {
+                font-size: 38px;
+                margin: auto;
+                margin-bottom: 20px;
+            }
+
+            .respirators-description-1,
+            .respirators-description-2 {
+                font-size: 16px;
+                padding: 0px 90px;
+            }
+        }
+
+        .health {
+            .health-title {
+                font-size: 38px;
+                margin: auto;
+                margin-bottom: 20px;
+                padding: 0 90px;
+            }
+
+            .health-description-1,
+            .health-description-2 {
+                font-size: 16px;
+                padding: 0px 90px;
+            }
+
+            .health-col-right {
+                justify-content: center;
+                height: 400px;
+            }
+
+            .health-img {
+                width: 337px;
+                height: 390px;
+            }
+        }
+    }
+
     .hong-kong {
 
         .kong-col-left {
