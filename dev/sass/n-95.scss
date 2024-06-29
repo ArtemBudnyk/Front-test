@@ -17,6 +17,14 @@
             margin-right: 47px;
         }
 
+        .img-respirators {
+            transition: transform 0.6s ease;
+
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+
         .respirators-title {
             color: #0C122D;
             font-family: 'Rubik';
@@ -53,6 +61,14 @@
             flex-direction: row;
             margin-top: -10px;
             margin-left: 52px;
+        }
+
+        .health-img {
+            transition: transform 0.6s ease;
+
+            &:hover {
+                transform: scale(1.1);
+            }
         }
 
         .health-col-left {

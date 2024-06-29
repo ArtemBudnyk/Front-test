@@ -1,0 +1,87 @@
+.response {
+    margin-top: 71px;
+
+    .slider-template {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .response-cart {
+        width: 365px;
+        border: 1px solid black;
+        border-radius: 10px;
+
+        // &:nth-child(2),
+        // &:nth-child(3) {
+        //     margin-left: 24px;
+        // }
+    }
+
+    .cart-2,
+    .cart-3 {
+        margin-left: 24px;
+    }
+
+    .stars {
+        position: relative;
+        width: 112px;
+        margin-top: 38px;
+        margin-left: 26px;
+    }
+
+    .in {
+        width: 30px;
+        height: 30px;
+        transform: translate(150px, 15px);
+    }
+
+    .review-description {
+        padding: 16px 41px;
+        line-height: 29px;
+    }
+
+    .person {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .maria,
+    .nicky,
+    .laim {
+        position: relative;
+        width: 39px;
+        height: 39px;
+        border-radius: 100%;
+        margin: 8px 0 40px 42px;
+    }
+
+    .name {
+        font-family: 'OpenSans';
+        font-weight: 400;
+        font-size: 14px;
+        margin: 10px 0 0 15px;
+    }
+
+    .profession {
+        margin: 26px 0 0 -70px;
+        font-size: 14px;
+    }
+
+    #mechanic {
+        margin-left: -84px;
+    }
+
+    #dancer {
+        margin-left: -39px;
+    }
+
+
+    .slick-track {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .slick-slide {
+        width: 450px!important;
+    }
+}
