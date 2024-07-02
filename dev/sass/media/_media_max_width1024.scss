@@ -6,6 +6,19 @@
             margin-left: 30px;
         }
     }
+
+    footer {
+        .col-description,
+        .col-company,
+        .col-folow_us {
+            display: none;
+        }
+
+        .copy {
+            margin-top: 10px;
+        }
+
+    }
 }
 
 

@@ -31,6 +31,14 @@
         }
     }
 
+    .choose-product {
+        .products {
+            .col-right {
+                margin-left: 80px;
+            }
+        }
+    }
+
     .response {
         .container {
             width: 100%;
@@ -51,6 +59,12 @@
 
         .phone {
             margin-right: 100px;
+        }
+    }
+
+    footer {
+        .container {
+            padding: 0 20px;
         }
     }
 }
