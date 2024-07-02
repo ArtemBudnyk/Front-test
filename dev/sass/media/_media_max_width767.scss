@@ -23,6 +23,73 @@
             }
         }
     }
+
+    .get-one {
+        .title {
+            font-size: 38px;
+            text-align: center;
+        }
+
+        .description {
+            font-size: 14px;
+        }
+    }
+
+    .us-info {
+
+        &::after {
+            height: 215px;
+            top: -20%;
+        }
+
+        .row-info {
+            flex-direction: column;
+            align-items: center;
+            margin-left: 80px;
+        }
+
+        .adress-title,
+        .phone-title,
+        .email-title {
+            font-size: 20px;
+        }
+
+        .adress-info,
+        .phone-info,
+        .email-info {
+            font-size: 14px;
+        }
+
+        .adress-info {
+            width: 150px;
+        }
+
+        .adress {
+            margin: 0;
+
+            &::after {
+                left: -31%;
+            }
+        }
+
+        .phone {
+            margin: 0;
+            margin-left: -38px;
+
+            &::after {
+                left: -51%;
+            }
+        }
+
+        .email {
+            margin-left: -10px;
+
+            &::after {
+                left: -48%;
+                top: 34%;
+            }
+        }
+    }
 }
 
 @media screen and (max-width: 650px) {

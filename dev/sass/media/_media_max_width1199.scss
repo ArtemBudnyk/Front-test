@@ -30,6 +30,29 @@
             width: 100%;
         }
     }
+
+    .response {
+        .container {
+            width: 100%;
+            justify-content: center;
+            display: flex;
+        }
+
+        .slick-list {
+            width: 365px;
+        }
+    }
+
+    .us-info {
+        .adress {
+            margin-left: 70px;
+            margin-right: 145px;
+        }
+
+        .phone {
+            margin-right: 100px;
+        }
+    }
 }
 
 @media screen and (max-width: 1099px) {
