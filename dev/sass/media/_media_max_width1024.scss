@@ -1,5 +1,27 @@
 @media screen and (max-width: 991.99px) {
 
+    .landing {
+        .contact-us {
+            width: auto;
+            margin-left: 0;
+        }
+
+        .navbar-nav {
+            align-items: center;
+        }
+
+        .navbar-brand {
+            max-width: 200px;
+        }
+
+        .show {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
     .us-info {
         .adress {
             margin-right: 85px;

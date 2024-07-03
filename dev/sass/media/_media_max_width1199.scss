@@ -72,6 +72,10 @@
 @media screen and (max-width: 1099px) {
     .landing {
 
+        .navbar {
+            padding: 0 30px;
+        }
+
         .baner {
             flex-direction: column;
             align-items: center;

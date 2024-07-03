@@ -1,5 +1,9 @@
 header {
-    margin-top: 21px;
+    // margin-top: 21px;
+    margin-top: 13px;
+    margin-bottom: -10px;
+    display: flex;
+    justify-content: center;
 
     .navbar-brand {
         margin: 0 auto 0 0;
@@ -37,6 +41,32 @@ header {
     }
 
     .contact-us {
-        margin-right: -32px;
+        // margin-right: -32px;
+        margin-left: 38px;
+        width: 222px;
+    }
+
+
+    // new 
+
+    .navbar {
+        max-width: 1140px;
+        width: 100%;
+
+        &-brand {
+            max-width: 520px;
+            width: 100%;
+        }
+
+        &-nav {
+            justify-content: space-between;
+            max-width: 460px;
+            width: 100%;
+        }
+    }
+
+    .navbar-brand {
+        max-width: 520px;
+        width: 100%;
     }
 }
