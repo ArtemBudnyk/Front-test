@@ -2,6 +2,17 @@
     .respirators {
         display: flex;
         flex-direction: row;
+        position: relative;
+        &::before {
+            content: "";
+            position: absolute;
+            width: 700px;
+            height: 1450px;
+            z-index: -1;
+            background: url(assets/img/arrow-1.png);
+            top: -45%;
+            left: -35%;
+        }
 
         .respirators-col-right {
             width: 523px;
@@ -53,6 +64,17 @@
         margin-top: 92px;
         display: flex;
         flex-direction: row;
+        position: relative;
+        &::before {
+            content: "";
+            position: absolute;
+            width: 700px;
+            height: 1450px;
+            z-index: -1;
+            background: url(assets/img/arrow-2.png);
+            top: -15%;
+            left: 75%;
+        }
 
         .health-col-right {
             width: 570px;

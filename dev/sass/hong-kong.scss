@@ -1,4 +1,15 @@
 .hong-kong {
+    position: relative;
+    &::before {
+        content: "";
+        position: absolute;
+        background-color: #F7FDFB;
+        width: 1920px;
+        height: 1614px;
+        z-index: -1;
+        top: 45%;
+        border-radius: 0 0 0 130px;
+    }
 
     .container {
         display: flex;
@@ -162,7 +173,7 @@
     .lab {
         display: flex;
         flex-direction: row;
-        margin-top: 105px;
+        margin-top: 108px;
 
         .col-lab,
         .col-img {

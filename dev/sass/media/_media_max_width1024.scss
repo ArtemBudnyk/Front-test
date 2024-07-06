@@ -1,5 +1,8 @@
 @media screen and (max-width: 991.99px) {
 
+
+   
+
     .landing {
         .contact-us {
             width: auto;
@@ -22,6 +25,14 @@
         }
     }
 
+    header {
+        .navbar {
+            &-collapse {
+                flex-direction: column;
+            }
+        }
+    }
+
     .us-info {
         .adress {
             margin-right: 85px;
@@ -29,7 +40,17 @@
         }
     }
 
+    .get-one {
+        margin-bottom: 90px;
+    }
+
     footer {
+        margin-top: 70px;
+
+        &::before {
+            display: none;
+        }
+        
         .col-description,
         .col-company,
         .col-folow_us {

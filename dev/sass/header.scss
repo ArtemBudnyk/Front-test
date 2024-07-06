@@ -1,9 +1,19 @@
 header {
-    // margin-top: 21px;
     margin-top: 13px;
     margin-bottom: -10px;
     display: flex;
     justify-content: center;
+    position: relative;
+
+    &::before {
+        content: "";
+        position: absolute;
+        max-width: 1920px;
+        width: 100%;
+        height: 1195px;
+        background: #F7FDFB;
+        z-index: -2;
+    }
 
     .navbar-brand {
         margin: 0 auto 0 0;
@@ -41,9 +51,12 @@ header {
     }
 
     .contact-us {
-        // margin-right: -32px;
         margin-left: 38px;
         width: 222px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transform: translate(16px, 0px);
     }
 
 
@@ -60,13 +73,38 @@ header {
 
         &-nav {
             justify-content: space-between;
-            max-width: 460px;
+            max-width: 500px;
             width: 100%;
+        }
+
+        &-toggler {
+            border: none;
+            &:focus {
+                border: none;
+                outline: none;
+                box-shadow: none;
+            }
+        }
+
+        &-collapse {
+            display: flex;
+            width: 100%;
+            height: 100%;
+            align-items: center;
+            justify-content: center;
         }
     }
 
     .navbar-brand {
         max-width: 520px;
         width: 100%;
+
+        &:hover {
+            color: #1B5FC1;
+        }
+    }
+
+    .nav-link:hover {
+        color: #1B5FC1;
     }
 }

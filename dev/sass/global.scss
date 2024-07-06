@@ -5,6 +5,14 @@
     // overflow-x: hidden;
 }
 
+body {
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .landing {
     max-width: 1920px;
     width: 100%;

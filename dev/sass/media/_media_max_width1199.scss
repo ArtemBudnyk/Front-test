@@ -3,6 +3,10 @@
         .container {
             padding: 0px 30px;
         }
+
+        .contact-us {
+            transform: translate(0px, 0px);
+        }
     }
 
     .hong-kong {
@@ -46,8 +50,24 @@
             display: flex;
         }
 
+        .slider-template {
+            max-width: 1200px;
+            width: 100%;
+            justify-content: center;
+        }
+
         .slick-list {
-            width: 365px;
+            // width: 365px;\
+            width: 100%;
+        }
+
+        .slick-slide {
+            // width: 565px;
+            min-width: 440px;
+            width: 100%!important;
+            // margin-left: auto;
+            display: flex;
+            justify-content: center;
         }
     }
 
@@ -90,6 +110,10 @@
 
             .col-right {
                 display: none;
+
+                &::after {
+                    display: none;
+                }
             }
 
             .row-btn {
@@ -101,13 +125,18 @@
 
         .carts {
             flex-direction: column;
-            align-items: baseline;
+            align-items: baseline;  // тут выбрал этот стиль
+                                    // так как показался более подходящим
         }
 
         .health,
         .respirators {
             flex-direction: column;
             align-items: center;
+
+            &::before {
+                display: none;
+            }
 
             .respirators-col-left {
                 margin: 0;
@@ -124,6 +153,10 @@
     }
 
     .hong-kong {
+        &::backdrop {
+            display: none;
+        }
+        
         .lab {
             flex-direction: column;
 
